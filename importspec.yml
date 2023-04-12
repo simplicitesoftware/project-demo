@@ -11,7 +11,7 @@ modules:
     version: "5"
   - name: DemoDSFR
     version: "5"
-  - name: DemoJSLIb
+  - name: DemoJSLib
     version: "5"
   - name: DemoMustache
     version: "5"
