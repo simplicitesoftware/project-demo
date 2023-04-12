@@ -11,4 +11,36 @@
 Demo project
 ============
 
-This is the demo project
+This is the demo project packaging.
+
+Clone the modules
+-----------------
+
+Only needed once:
+
+```bash
+./clone.sh
+```
+
+Pull the latest modules
+-----------------------
+
+Only needed if the modules were already cloned: 
+
+```bash
+./pull.sh
+```
+
+Build the image with the modules
+--------------------------------
+
+```bash
+docker compose build
+```
+
+Run
+---
+
+```bash
+docker compose up
+```
