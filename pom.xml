@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.simplicite.modules</groupId>
+  <version>5-SNAPSHOT</version>
+  <artifactId>DemoProject</artifactId>
+  <name>DemoProject</name>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <simplicite.url>https://dev5.dev.simplicite.io</simplicite.url>
+    <simplicite.version>5.2-SNAPSHOT</simplicite.version>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+  </properties>
+  <packaging>pom</packaging>
+  <url>${simplicite.url}</url>
+  <modules>
+    <module>Demo</module>
+    <module>DemoAddons</module>
+    <module>DemoAPIs</module>
+    <module>DemoCustomDisp</module>
+    <module>DemoDashboard</module>
+    <module>DemoDSFR</module>
+    <module>DemoJSLib</module>
+    <module>DemoMustache</module>
+    <module>DemoStaticSite</module>
+    <module>DemoVueJS</module>
+    <module>DemoWebSite</module>
+  </modules>
+</project>
