@@ -1,0 +1,34 @@
+version: "3"
+services:
+  database:
+    image: postgres:latest
+    container_name: database
+    environment:
+      POSTGRES_USER: "simplicite"
+      POSTGRES_PASSWORD: "simplicite"
+      POSTGRES_DB: "simplicite"
+    volumes:
+      - data:/var/lib/postgresql/data
+  simplicite:
+    image: demo
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: simplicite
+    environment:
+      DB_SETUP: "true"
+      DB_VENDOR: "postgresql"
+      DB_HOST: database
+      DB_USER: "simplicite"
+      DB_PASSWORD: "simplicite"
+      DB_NAME: "simplicite"
+      DB_WAIT: 100
+    ports:
+      # For a *non SSL** reverse proxy or direct access (http://)
+      - 127.0.0.1:8080:8080
+      # For a **SSL**areverse proxy (https://)
+      - 127.0.0.1:8443:8443
+    depends_on:
+      - database
+volumes:
+  data:
