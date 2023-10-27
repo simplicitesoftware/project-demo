@@ -6,7 +6,7 @@ do
 	echo "========================="
 	echo $f
 	echo "========================="
-	git push github
+	git push ${1:-github}
 	popd > /dev/null
 done
 echo
