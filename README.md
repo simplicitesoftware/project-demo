@@ -8,10 +8,10 @@
 ![](https://docs.simplicite.io//logos/logo250.png)
 * * *
 
-Demo project
-============
+Demo v5 project
+===============
 
-This is the demo project packaging.
+This is the demo v5 project packaging.
 
 Clone the modules
 -----------------

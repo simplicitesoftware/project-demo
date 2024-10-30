@@ -1,4 +1,4 @@
-FROM registry.simplicite.io/platform:5.2
+FROM registry.simplicite.io/platform:5-latest
 
 # Add the importspec and the modules
 ADD --chown=simplicite:simplicite importspec.yml /usr/local/tomcat/webapps/ROOT/WEB-INF/modules/importspec.yml

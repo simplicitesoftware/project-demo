@@ -3,8 +3,8 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.simplicite.modules</groupId>
   <version>5-SNAPSHOT</version>
-  <artifactId>DemoProject</artifactId>
-  <name>DemoProject</name>
+  <artifactId>DemoProjectV5</artifactId>
+  <name>DemoProjectV5</name>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <simplicite.url>https://dev5.dev.simplicite.io</simplicite.url>

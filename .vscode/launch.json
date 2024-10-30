@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "dev5",
+            "request": "attach",
+            "hostName": "dev5.dev2.simplicite.io",
+            "port": 20127
+        }
+    ]
+}
