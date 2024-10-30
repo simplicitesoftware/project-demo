@@ -1,23 +1,23 @@
 modules:
   - name: Demo
-    version: "5"
-  - name: DemoAddons
-    version: "5"
+    version: "6"
+#  - name: DemoAddons
+#    version: "5"
   - name: DemoAPIs
-    version: "5"
-  - name: DemoCustomDisp
-    version: "5"
-  - name: DemoDashboard
-    version: "5"
-  - name: DemoDSFR
-    version: "5"
-  - name: DemoJSLib
-    version: "5"
-  - name: DemoMustache
-    version: "5"
-  - name: DemoStaticSite
-    version: "5"
-  - name: DemoVueJS
-    version: "5"
-  - name: DemoWebSite
-    version: "5"
+    version: "6"
+#  - name: DemoCustomDisp
+#    version: "5"
+#  - name: DemoDashboard
+#    version: "5"
+#  - name: DemoDSFR
+#    version: "5"
+#  - name: DemoJSLib
+#    version: "5"
+#  - name: DemoMustache
+#    version: "5"
+#  - name: DemoStaticSite
+#    version: "5"
+#  - name: DemoVueJS
+#    version: "5"
+#  - name: DemoWebSite
+#    version: "5"

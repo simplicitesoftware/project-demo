@@ -5,13 +5,13 @@
 |___/_|_|_|_| .__/_|_\__|_|\__\___|
             |_|
 -->
-![](https://docs.simplicite.io//logos/logo250.png)
+![](https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/logo_simplicite/standard/logo250.png)
 * * *
 
-Demo project
-============
+Demo v6 project
+===============
 
-This is the demo project packaging.
+This is the demo v6 project packaging.
 
 Clone the modules
 -----------------
