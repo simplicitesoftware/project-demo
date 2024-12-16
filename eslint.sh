@@ -19,6 +19,7 @@ do
 		else
 			echo
 			echo "No JS resource"
+			popd > /dev/null
 		fi
 	fi
 done
