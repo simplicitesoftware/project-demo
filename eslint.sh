@@ -9,11 +9,16 @@ do
 		echo "========================="
 		echo $f
 		echo "========================="
-		npm i
-		npm run eslint
-		RES=$?
-		popd > /dev/null
-		[ $RES -ne 0 ] && exit $RES
+		if [ $(find resources -name \*.js | wc -l) -gt 0 ]
+		then
+			npm i
+			npm run eslint
+			RES=$?
+			popd > /dev/null
+			[ $RES -ne 0 ] && exit $RES
+		else
+			echo "No JS resource"
+		fi
 	fi
 done
 echo
