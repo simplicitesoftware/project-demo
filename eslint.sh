@@ -17,6 +17,7 @@ do
 			popd > /dev/null
 			[ $RES -ne 0 ] && exit $RES
 		else
+			echo
 			echo "No JS resource"
 		fi
 	fi
