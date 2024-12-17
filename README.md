@@ -25,10 +25,17 @@ Only needed once:
 Pull the latest modules
 -----------------------
 
-Only needed if the modules were already cloned: 
+Only needed if the modules were already cloned:
 
 ```bash
 ./pull.sh
+```
+
+Check before building
+---------------------
+
+```bash
+mvn -U -DskipTests=true clean package
 ```
 
 Build the image with the modules
