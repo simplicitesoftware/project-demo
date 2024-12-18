@@ -1,9 +1,4 @@
 #!/bin/bash
 
-mvn clean compile org.sonarsource.scanner.maven:sonar-maven-plugin:sonar \
-		-Dsonar.login=$SONAR_TOKEN \
-		-Dsonar.projectKey=simplicite-modules-DemoProjectV5 \
-		-Dsonar.organization=simplicitesoftware \
-		-Dsonar.host.url=https://sonarcloud.io \
-		-Dsonar.scm.exclusions.disabled=true
+mvn clean compile org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
 exit $?

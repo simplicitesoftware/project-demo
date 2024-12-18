@@ -11,6 +11,12 @@
     <simplicite.version>5.3-SNAPSHOT</simplicite.version>
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
+    <sonar.projectKey>simplicite-modules-DemoProjectV5</sonar.projectKey>
+    <sonar.projectName>DemoProjectV5</sonar.projectName>
+    <sonar.projectVersion>5</sonar.projectVersion>
+    <sonar.organization>simplicitesoftware</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    <sonar.scm.exclusions.disabled>true</sonar.scm.exclusions.disabled>
   </properties>
   <packaging>pom</packaging>
   <url>${simplicite.url}</url>
