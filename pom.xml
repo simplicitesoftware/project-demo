@@ -24,8 +24,8 @@
     <module>Demo</module>
     <!--module>DemoAddons</module-->
     <module>DemoAPIs</module>
-    <!--module>DemoCustomDisp</module>
-    <module>DemoDashboard</module>
+    <module>DemoCustomDisp</module>
+    <!--module>DemoDashboard</module>
     <module>DemoDSFR</module>
     <module>DemoJSLib</module>
     <module>DemoMustache</module>
