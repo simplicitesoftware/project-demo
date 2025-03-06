@@ -16,7 +16,7 @@
     <sonar.projectVersion>6</sonar.projectVersion>
     <sonar.organization>simplicitesoftware</sonar.organization>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-    <Dsonar.scm.exclusions.disabled>true</Dsonar.scm.exclusions.disabled>
+    <sonar.scm.exclusions.disabled>true</sonar.scm.exclusions.disabled>
   </properties>
   <packaging>pom</packaging>
   <url>${simplicite.url}</url>
