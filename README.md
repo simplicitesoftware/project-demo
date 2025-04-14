@@ -35,7 +35,7 @@ Check before building
 ---------------------
 
 ```bash
-mvn -U -DskipTests=true clean package
+mvn clean package
 ```
 
 Build the image with the modules
