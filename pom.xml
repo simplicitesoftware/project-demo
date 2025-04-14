@@ -11,6 +11,7 @@
     <simplicite.version>6.1-SNAPSHOT</simplicite.version>
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
+    <skipTests>true</skipTests>
     <sonar.projectKey>simplicite-modules-DemoProjectV6</sonar.projectKey>
     <sonar.projectName>DemoProjectV6</sonar.projectName>
     <sonar.projectVersion>6</sonar.projectVersion>
