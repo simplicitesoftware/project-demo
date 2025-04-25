@@ -14,20 +14,6 @@
             "request": "attach",
             "hostName": "dev5.dev2.simplicite.io",
             "port": 20127
-        },
-        {
-            "type": "java",
-            "name": "dev6",
-            "request": "attach",
-            "hostName": "dev6.dev2.simplicite.io",
-            "port": 20037
-        },
-        {
-            "type": "java",
-            "name": "demo",
-            "request": "attach",
-            "hostName": "demo.dev2.simplicite.io",
-            "port": 20027
         }
     ]
 }
