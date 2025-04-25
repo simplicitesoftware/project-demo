@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "localhost",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 8000
+        },
+        {
+            "type": "java",
             "name": "dev6",
             "request": "attach",
             "hostName": "dev6.dev2.simplicite.io",
