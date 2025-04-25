@@ -2,8 +2,8 @@
     "recommendations": [
         "vscjava.vscode-java-pack",
         "shengchen.vscode-checkstyle",
-		"dbaeumer.jshint",
-		"dbaeumer.vscode-eslint",
-		"stylelint.vscode-stylelint"
+        "dbaeumer.jshint",
+        "dbaeumer.vscode-eslint",
+        "stylelint.vscode-stylelint"
     ]
 }
