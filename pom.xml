@@ -2,19 +2,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.simplicite.modules</groupId>
-  <version>6-SNAPSHOT</version>
-  <artifactId>DemoProjectV6</artifactId>
-  <name>DemoProjectV6</name>
+  <version>7-SNAPSHOT</version>
+  <artifactId>DemoProjectV7</artifactId>
+  <name>DemoProjectV7</name>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <simplicite.url>https://dev6.dev2.simplicite.io</simplicite.url>
-    <simplicite.version>6.1-SNAPSHOT</simplicite.version>
-    <maven.compiler.source>11</maven.compiler.source>
-    <maven.compiler.target>11</maven.compiler.target>
+    <simplicite.url>https://dev7.dev2.simplicite.io</simplicite.url>
+    <simplicite.version>7.0-SNAPSHOT</simplicite.version>
+    <maven.compiler.source>21</maven.compiler.source>
+    <maven.compiler.target>21</maven.compiler.target>
     <skipTests>true</skipTests>
-    <sonar.projectKey>simplicite-modules-DemoProjectV6</sonar.projectKey>
-    <sonar.projectName>DemoProjectV6</sonar.projectName>
-    <sonar.projectVersion>6</sonar.projectVersion>
+    <sonar.projectKey>simplicite-modules-DemoProjectV7</sonar.projectKey>
+    <sonar.projectName>DemoProjectV7</sonar.projectName>
+    <sonar.projectVersion>7</sonar.projectVersion>
     <sonar.organization>simplicitesoftware</sonar.organization>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     <sonar.scm.exclusions.disabled>true</sonar.scm.exclusions.disabled>
@@ -23,15 +23,15 @@
   <url>${simplicite.url}</url>
   <modules>
     <module>Demo</module>
-    <!--module>DemoAddons</module-->
-    <module>DemoAPIs</module>
-    <module>DemoCustomDisp</module>
-    <!--module>DemoDashboard</module>
-    <module>DemoDSFR</module>
-    <module>DemoJSLib</module>
-    <module>DemoMustache</module>
-    <module>DemoStaticSite</module>
-    <module>DemoVueJS</module>
-    <module>DemoWebSite</module-->
+	<!-- <module>DemoAddons</module> -->
+	<!-- <module>DemoAPIs</module> -->
+	<!-- <module>DemoCustomDisp</module> -->
+	<!-- <module>DemoDashboard</module> -->
+	<!-- <module>DemoDSFR</module> -->
+	<!-- <module>DemoJSLib</module> -->
+	<!-- <module>DemoMustache</module> -->
+	<!-- <module>DemoStaticSite</module> -->
+	<!-- <module>DemoVueJS</module> -->
+	<!-- <module>DemoWebSite</module> -->
   </modules>
 </project>

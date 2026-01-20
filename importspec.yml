@@ -1,12 +1,12 @@
 modules:
   - name: Demo
-    version: "6"
+    version: "7"
 #  - name: DemoAddons
 #    version: "5"
-  - name: DemoAPIs
-    version: "6"
+#  - name: DemoAPIs
+#    version: "6"
 #  - name: DemoCustomDisp
-#    version: "5"
+#    version: "6"
 #  - name: DemoDashboard
 #    version: "5"
 #  - name: DemoDSFR

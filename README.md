@@ -8,10 +8,10 @@
 ![](https://cdn.jsdelivr.net/gh/simplicitesoftware/resources@latest/public/logo_simplicite/standard/logo250.png)
 * * *
 
-Demo v6 project
+Demo v7 project
 ===============
 
-This is the demo v6 project packaging.
+This is the demo v7 project packaging.
 
 Clone the modules
 -----------------
