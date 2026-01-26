@@ -8,9 +8,9 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <simplicite.url>https://dev6.dev2.simplicite.io</simplicite.url>
-    <simplicite.version>6.1-SNAPSHOT</simplicite.version>
-    <maven.compiler.source>11</maven.compiler.source>
-    <maven.compiler.target>11</maven.compiler.target>
+    <simplicite.version>6.3-SNAPSHOT</simplicite.version>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
     <skipTests>true</skipTests>
     <sonar.projectKey>simplicite-modules-DemoProjectV6</sonar.projectKey>
     <sonar.projectName>DemoProjectV6</sonar.projectName>
@@ -23,15 +23,15 @@
   <url>${simplicite.url}</url>
   <modules>
     <module>Demo</module>
-    <!--module>DemoAddons</module-->
+    <!-- <module>DemoAddons</module> -->
     <module>DemoAPIs</module>
     <module>DemoCustomDisp</module>
-    <!--module>DemoDashboard</module>
-    <module>DemoDSFR</module>
-    <module>DemoJSLib</module>
-    <module>DemoMustache</module>
-    <module>DemoStaticSite</module>
-    <module>DemoVueJS</module>
-    <module>DemoWebSite</module-->
+    <!-- <module>DemoDashboard</module> -->
+    <!-- <module>DemoDSFR</module> -->
+    <!-- <module>DemoJSLib</module> -->
+    <!-- <module>DemoMustache</module> -->
+    <!-- <module>DemoStaticSite</module> -->
+    <!-- <module>DemoVueJS</module> -->
+    <!-- <module>DemoWebSite</module> -->
   </modules>
 </project>

@@ -5,8 +5,8 @@ modules:
 #    version: "5"
   - name: DemoAPIs
     version: "6"
-#  - name: DemoCustomDisp
-#    version: "5"
+  - name: DemoCustomDisp
+    version: "6"
 #  - name: DemoDashboard
 #    version: "5"
 #  - name: DemoDSFR
