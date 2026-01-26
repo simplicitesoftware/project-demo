@@ -9,7 +9,7 @@ do
 		echo "========================="
 		echo $f
 		echo "========================="
-		npm i
+		npm --legacy-peer-deps install
 		npm run jshint
 		RES=$?
 		popd > /dev/null

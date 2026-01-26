@@ -9,7 +9,7 @@ do
 		echo "========================="
 		echo $f
 		echo "========================="
-		npm i
+		npm --legacy-peer-deps install
 		npm run stylelint
 		RES=$?
 		popd > /dev/null

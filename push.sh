@@ -9,7 +9,7 @@ do
 		echo "========================="
 		echo $f
 		echo "========================="
-		git tag -f 7 -m "Version 7" && git push ${1:-github} 7
+		git tag -f 7 -m "Version 7" && git push -f ${1:-github} 7
 		git push ${1:-github}
 		popd > /dev/null
 	fi
