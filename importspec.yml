@@ -7,8 +7,8 @@ modules:
     version: "6"
   - name: DemoCustomDisp
     version: "6"
-#  - name: DemoDashboard
-#    version: "5"
+  - name: DemoDashboard
+    version: "6"
 #  - name: DemoDSFR
 #    version: "5"
 #  - name: DemoJSLib
