@@ -4,8 +4,8 @@ FROM registry.simplicite.io/platform:6-latest
 ADD --chown=simplicite:simplicite importspec.yml /usr/local/tomcat/webapps/ROOT/WEB-INF/modules/importspec.yml
 ADD --chown=simplicite:simplicite Demo           /usr/local/tomcat/webapps/ROOT/WEB-INF/modules/Demo
 #ADD --chown=simplicite:simplicite DemoAddons     /usr/local/tomcat/webapps/ROOT/WEB-INF/modules/DemoAddons
-ADD --chown=simplicite:simplicite DemoAPIs       /usr/local/tomcat/webapps/ROOT/WEB-INF/modules/DemoAPIs
-#ADD --chown=simplicite:simplicite DemoCustomDisp /usr/local/tomcat/webapps/ROOT/WEB-INF/modules/DemoCustomDisp
+#ADD --chown=simplicite:simplicite DemoAPIs       /usr/local/tomcat/webapps/ROOT/WEB-INF/modules/DemoAPIs
+ADD --chown=simplicite:simplicite DemoCustomDisp /usr/local/tomcat/webapps/ROOT/WEB-INF/modules/DemoCustomDisp
 #ADD --chown=simplicite:simplicite DemoDashboard  /usr/local/tomcat/webapps/ROOT/WEB-INF/modules/DemoDashboard
 #ADD --chown=simplicite:simplicite DemoDSFR       /usr/local/tomcat/webapps/ROOT/WEB-INF/modules/DemoDSFR
 #ADD --chown=simplicite:simplicite DemoJSLib      /usr/local/tomcat/webapps/ROOT/WEB-INF/modules/DemoJSLib

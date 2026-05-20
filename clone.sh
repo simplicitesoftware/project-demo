@@ -1,5 +1,6 @@
 #!/bin/bash
 
-[ ! -d Demo ] && git clone --depth 1 --single-branch --branch=v7 git@github.com:simplicitesoftware/module-demo.git Demo
+[ ! -d Demo ] &&           git clone --depth 1 --single-branch --branch=v7 git@github.com:simplicitesoftware/module-demo.git Demo
+[ ! -d DemoCustomDisp ] && git clone --depth 1 --single-branch --branch=v7 git@github.com:simplicitesoftware/module-demo-custom-disposition.git DemoCustomDisp
 
 exit 0
