@@ -21,3 +21,5 @@ modules:
 #    version: "5"
 #  - name: DemoWebSite
 #    version: "5"
+  - name: DemoGuide
+    version: "6"

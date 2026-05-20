@@ -33,5 +33,6 @@
     <!-- <module>DemoStaticSite</module> -->
     <!-- <module>DemoVueJS</module> -->
     <!-- <module>DemoWebSite</module> -->
+    <module>DemoGuide</module>
   </modules>
 </project>

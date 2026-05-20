@@ -13,6 +13,7 @@ ADD --chown=simplicite:simplicite DemoDashboard  /usr/local/tomcat/webapps/ROOT/
 #ADD --chown=simplicite:simplicite DemoStaticSite /usr/local/tomcat/webapps/ROOT/WEB-INF/modules/DemoStaticSite
 #ADD --chown=simplicite:simplicite DemoVueJS      /usr/local/tomcat/webapps/ROOT/WEB-INF/modules/DemoVueJS
 #ADD --chown=simplicite:simplicite DemoWebSite    /usr/local/tomcat/webapps/ROOT/WEB-INF/modules/DemoWebSite
+ADD --chown=simplicite:simplicite DemoGuide      /usr/local/tomcat/webapps/ROOT/WEB-INF/modules/DemoGuide
 
 # Remove Git settings from the modules
 RUN for MODULE in /usr/local/tomcat/webapps/ROOT/WEB-INF/modules/Demo*; do sed -i '/<mdl_url>/,/<\/mdl_url>/d' $MODULE/$(basename $MODULE).xml; done
