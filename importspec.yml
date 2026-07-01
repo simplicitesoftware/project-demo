@@ -3,12 +3,12 @@ modules:
     version: "7"
 #  - name: DemoAddons
 #    version: "5"
-#  - name: DemoAPIs
-#    version: "6"
+  - name: DemoAPIs
+    version: "7"
   - name: DemoCustomDisp
     version: "7"
-#  - name: DemoDashboard
-#    version: "5"
+  - name: DemoDashboard
+    version: "7"
 #  - name: DemoDSFR
 #    version: "5"
 #  - name: DemoJSLib
@@ -18,6 +18,4 @@ modules:
 #  - name: DemoStaticSite
 #    version: "5"
 #  - name: DemoVueJS
-#    version: "5"
-#  - name: DemoWebSite
 #    version: "5"
